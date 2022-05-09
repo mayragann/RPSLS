@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rock_Paper_Scissors_Lizard_Spock
+namespace RockPaperScissorsLizardSpock
 {
-    public abstract class Player
+    public class Player
     {
         public string name;
         public string choice;
