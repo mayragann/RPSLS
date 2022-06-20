@@ -20,7 +20,7 @@ namespace RPSLS
             choice = choices[random.Next(0, 4)];
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine($"\n{choice}");
-            Console.WriteLine($"{name} Choose {choice}");
+            Console.WriteLine($"{name} Picked {choice}");
         }
     }
 }
